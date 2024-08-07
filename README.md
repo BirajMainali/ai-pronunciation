@@ -8,6 +8,7 @@ This tool uses AI to evaluate your pronunciation so you can improve it and be un
 To run the program locally, you need to install the requirements and run the main python file:
 ```
 pip install -r requirements.txt
+pip install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 python webApp.py
 ```
 You'll also need ffmpeg, which you can download from here https://ffmpeg.org/download.html. On Windows, it may be needed to add the ffmpeg "bin" folder to your PATH environment variable. On Mac, you can also just run "brew install ffmpeg".
